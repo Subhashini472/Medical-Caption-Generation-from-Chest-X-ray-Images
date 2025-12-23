@@ -1,1 +1,21 @@
+📁 Dataset Files Description
+
+This repository includes three preprocessed CSV files derived from the IU Chest X-Ray dataset. These files are used for training, validation, and testing of the image captioning models.
+
+📄 Files Included
+      File Name	Purpose
+      Train_Data.csv	  Used for model training
+      CV_Data.csv	      Used for validation / hyperparameter tuning
+      Test_Data.csv	      Used for final evaluation
+
+📊 CSV File Structure
+
+Each CSV file follows the same structure:
+
+      Column Name	                     Description
+      person_id               Unique identifier for each patient or image pair
+      image1	              Filename of the first chest X-ray image (frontal or lateral view)
+      image2	              Filename of the second chest X-ray image (paired view or same image)
+      report	              Cleaned radiology caption (Findings + Impression)
+
 
